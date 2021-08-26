@@ -403,12 +403,10 @@ function fastClick() {
     }
 }
 
-var isRedmi = true
-
 function main() {
     home();
     sleep(3000);
-
+    var i=1000;
     while (i > 0) {
         kuaishou.run(100)//参数为每次循环刷动的次数
         shuabao.run(100)//参数为每次循环刷动的次数
